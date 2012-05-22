@@ -1,0 +1,11 @@
+!!! Strict
+%html
+%head
+  %title
+    Jabber Color Switcher
+
+%body
+  %h1 Choose a Color
+  
+  = button_to("Blue", colors_path(:color => "blue"))
+  = button_to("Red",  colors_path(:color => "red"))
